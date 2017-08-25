@@ -12,7 +12,7 @@ public class StringPermutationMaker {
 			 **/
 			for (int i = 0; i < input.length(); i++) {
 				String reminder = input.substring(0, i) + input.substring(i + 1);
-				permute(reminder.trim(), result + input.charAt(i));
+				permutationmaker(reminder.trim(), result + input.charAt(i));
 			}
 
 		}
